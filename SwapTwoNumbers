@@ -1,0 +1,14 @@
+
+public class swaps_the_values_of_two_variables {
+	public static void main (String args[])
+	{
+	int a=10;
+	int b=20;
+	a=a+b;//30
+	b=a-b;//10
+	a=a-b;
+	System.out.println("value of a is "+a);
+	
+	System.out.println("value of b is "+b);
+	}
+}
